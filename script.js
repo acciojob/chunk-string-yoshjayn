@@ -3,7 +3,8 @@ function stringChop(str, size) {
 	    let arr = new Array()
             let i = 0
             size= + size
-    while(i<str.length){
+	
+    while(i<str.trim().length){
         console.log('i',i)
         arr.push(str.substring(i,i+size))
         i+=size
