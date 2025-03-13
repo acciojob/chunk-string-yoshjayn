@@ -1,6 +1,8 @@
 function stringChop(str, size) {
   // your code here
-	    let i=0
+	    let arr = new Array()
+            let i = 0
+            size= + size
     while(i<str.length){
         console.log('i',i)
         arr.push(str.substring(i,i+size))
